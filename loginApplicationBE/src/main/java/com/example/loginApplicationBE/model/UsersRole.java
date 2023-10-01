@@ -26,5 +26,4 @@ public class UsersRole {
 
     @Column(name = "EXPIRY_DATE")
     private Date expiryDate;
-
 }

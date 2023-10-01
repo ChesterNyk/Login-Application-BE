@@ -15,6 +15,9 @@ public class Function {
     @Column(name = "FUNCTION_NAME")
     private String functionName;
 
+    @Column(name = "FUNCTION_CODE")
+    private String functionCode;
+
     @Column(name = "FUNCTION_DESCRIPTION")
     private String functionDescription;
 }

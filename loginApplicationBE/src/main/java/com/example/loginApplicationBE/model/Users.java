@@ -27,5 +27,5 @@ public class Users {
     private String createdBy;
 
     @Column(name = "CREATED_DATETIME")
-    private Date createdDatetme;
+    private Date createdDatetime;
 }

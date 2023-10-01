@@ -12,11 +12,11 @@ public class RoleFunction {
     @Column(name = "ROLE_FUNCTION_ID", unique = true, nullable = false)
     private Long roleFunctionId;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "ROLE_ID", referencedColumnName = "ROLE_ID")
     private Role role;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "FUNCTION_ID", referencedColumnName = "FUNCTION_ID")
     private Function function;
 }
