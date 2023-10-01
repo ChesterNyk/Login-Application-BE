@@ -82,7 +82,7 @@ Make sure you have the following installed:
 1. Open Command Prompt:
     - Press the Windows symbol key, type `cmd` and hit Enter to open Command Prompt.
 2. Clone the Repository
-    - Use teh `git clone` command to clone the Lunch Location Randomizer BE repository to your local machine:
+    - Use the `git clone` command to clone the Lunch Location Randomizer BE repository to your local machine:
     ```sh
     git clone <respository URl>
     ```
