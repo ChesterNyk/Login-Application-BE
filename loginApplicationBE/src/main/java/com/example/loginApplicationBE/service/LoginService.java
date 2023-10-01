@@ -5,6 +5,5 @@ import com.example.loginApplicationBE.dtos.response.LoginMessageDto;
 import com.example.loginApplicationBE.dtos.response.UserDetailsDto;
 
 public interface LoginService {
-
     LoginMessageDto loginUser (LoginDto loginRequest);
 }
