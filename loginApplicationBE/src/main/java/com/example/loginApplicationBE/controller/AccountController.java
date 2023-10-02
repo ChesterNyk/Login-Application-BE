@@ -1,10 +1,6 @@
 package com.example.loginApplicationBE.controller;
 
-import com.example.loginApplicationBE.dtos.request.LoginDto;
-import com.example.loginApplicationBE.dtos.response.CommonResponseBody;
-import com.example.loginApplicationBE.dtos.response.LoginMessageDto;
-import com.example.loginApplicationBE.dtos.response.UserDetailsDto;
-import com.example.loginApplicationBE.dtos.response.UserList;
+import com.example.loginApplicationBE.dtos.response.*;
 import com.example.loginApplicationBE.service.AccountService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +26,7 @@ public class AccountController {
         CommonResponseBody responseBody = new CommonResponseBody();
 
         try {
-            List<UserList> userDetailsDtoList = accountService.userList();
+            List<UserListDto> userDetailsDtoList = accountService.userList();
 
             Map<String, Object> dataMap = new HashMap<>();
             dataMap.put("response", userDetailsDtoList);
