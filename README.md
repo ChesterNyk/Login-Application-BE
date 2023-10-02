@@ -3,9 +3,11 @@
 Login Application BE that handles querying database for valid users
 
 ## Technologies Used
-- ![Spring Boot](https://img.icons8.com/color/48/000000/spring-logo.png) Spring Boot
-- ![Java](https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png) Java
-- ![H2 Database](https://img.icons8.com/color/48/000000/database-restore.png) H2 (for database)
+Spring Boot
+- Java
+- H2 (for database)
+- Mockito / Junit for testing
+
 ## Description / Features
 The Login Application BE is a spring-boot application that provides backend services for a Login application. This application works together with a React application that serves as the FE.
 - <b>Randomize Selection:</b>
@@ -102,8 +104,15 @@ Start the Spring-Boot application:
     ```sh
     mvn spring-boot:run
     ```
+Start the Spring-Boot application:
+- Run the following command to run the unit test of the application:
+    ```sh
+    mvn test
+    ```
 ## Room For Improvement / Future Features
 There are many ways that this app can be improved upon! Here is a list of some ideas for future improvements:
+- Implement Spring Security to handle authentication and authorisation
+- Custom Exception
 
 ## Author
 - Name: Chester Ng
